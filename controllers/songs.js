@@ -14,13 +14,13 @@ const songSeed = [
       favorite: false
     },
     {
-      name: "Breakfast Kingdom",
+      title: "Breakfast Kingdom",
       artist: "Denny, ft. lil Ihop",
       time: "4:00",
       favorite: false
     },
     {
-      name: "World's giving out Lemons",
+      title: "World's giving out Lemons",
       artist: "Cynical Cynics",
       time: "5:23",
       favorite: false
