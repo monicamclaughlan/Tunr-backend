@@ -14,7 +14,7 @@ const songSeed = [
     },
     {
       name: "Breakfast Kingdom",
-      img: "https://static.wikia.nocookie.net/lego-dimensions/images/4/45/BREAKFASTKINGDOMSECRET.JPG/revision/latest/scale-to-width-down/2000?cb=20161120194331",
+      artist: "Denny, ft",
       description: "The Breakfast Kingdom is a state located in the Desert Lands. It is ruled by Breakfast Princess, Toast Princess, and Strudel Princess and is inhabited by Breakfast People.",
     },
     {

@@ -11,7 +11,7 @@ const songSchema = new Schema(
       title: String,
       artist: String,
       time: String,
-      favorite: type, Boolean, default: false
+      favorite: {type: Boolean, default: false}
     },
     
     { timestamps: true }
