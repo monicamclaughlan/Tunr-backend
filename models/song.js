@@ -10,8 +10,10 @@ const songSchema = new Schema(
     {
       title: String,
       artist: String,
-      time: Number,
+      time: String,
+      favorite: type, Boolean, default: false
     },
+    
     { timestamps: true }
   );
   

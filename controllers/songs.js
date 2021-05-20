@@ -10,7 +10,7 @@ const songSeed = [
     {
       title: "Yummy in my tummy",
       artist: "Yummy and the Yum Yums",
-      time: 3,
+      time: ""
     },
     {
       name: "Breakfast Kingdom",
