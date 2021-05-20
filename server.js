@@ -2,7 +2,7 @@
 require("dotenv").config();
 
 // IMPORT SONGS ROUTER
-
+const songRouter = require("./controllers/songs")
 //GET PORT FROM ENV VARIABLES
 const PORT = process.env.PORT;
 
@@ -25,6 +25,6 @@ app.use(morgan("tiny")); // <----- logging for debugging
 // ROUTES AND ROUTES
 app.get("/", (req, res) => res.send("Server is Working")); // <--- Route to test server
 // SONGS ROUTER
-
+app.use("/songs", songRouter) // send all "/songs" requires to the placeRouter
 // Server Listener
 app.listen(PORT, () => console.log(`Listening on port ${PORT}`));
