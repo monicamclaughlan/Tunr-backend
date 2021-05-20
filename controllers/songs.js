@@ -20,10 +20,6 @@ const songSeed = [
       favorite: false
     },
     {
-<<<<<<< HEAD
-=======
-
->>>>>>> 4f267dc75b8d19062136e8286e076f10b415e899
       title: "World's giving out Lemons",
       artist: "Cynical Cynics",
       time: "5:23",
